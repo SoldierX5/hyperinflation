@@ -1,0 +1,18 @@
+{
+	// Music data id
+	"id": "silence",
+
+	// Music file
+	"file_name": "silence.ogg",
+
+	// Music information
+	"name": "silence",
+	"album": "",
+	"author": "",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 }
+	]
+}

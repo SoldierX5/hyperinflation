@@ -1,0 +1,18 @@
+{
+	// Music data id
+	"id": "begin",
+
+	// Music file
+	"file_name": "begin.ogg",
+
+	// Music information
+	"name": "Focus",
+	"album": "Super Hexagon",
+	"author": "Chipzel",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 0 }
+	]
+}

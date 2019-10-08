@@ -1,0 +1,51 @@
+{
+	"id": "hexagonestEvent",
+	
+	// Events
+	"events":
+	[
+	    { "time": 0, 	"type": "music_set",	"id": "begin" }, 
+		{ "time": 0, 	"type": "style_set",	"id": "black" },
+		{ "time": 0, 	"type": "timeline_wait", "duration": 60}, 
+		{ "time": 0.5, 	"type": "style_set",	"id": "hexagonest" }, 
+		{ "time": 0.5, 	"type": "music_set",	"id": "hexagonest" }, 
+		
+		
+		{ "time": 22.5, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 0.8 },
+		{ "time": 22.5, "type": "level_float_set",	 "value_name": "dirChangeTime",	"value": 200 },
+		
+		{ "time": 44.5, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 1 },
+		{ "time": 44.5, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": 60 },
+		{ "time": 44.5, "type": "level_float_set",	 "value_name": "beatpulse_delay_max",	"value": 25 },
+		
+		{ "time": 66.7, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 0.1 },
+		{ "time": 66.7, "type": "level_float_set",	 "value_name": "pulse_max",	"value": 70 },
+		{ "time": 66.7, "type": "level_float_set",	 "value_name": "pulse_min",	"value": 50 },
+		{ "time": 66.7, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": 40 },
+		{ "time": 66.7, "type": "level_float_set",	 "value_name": "beatpulse_delay_max",	"value": 20 },
+		{ "time": 66.7, "type": "level_float_set",	 "value_name": "speed_multiplier",	"value": 3.2 },
+		
+		{ "time": 94.2, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 0.9 },
+		{ "time": 94.2, "type": "level_float_set",	 "value_name": "pulse_speed",	"value": 2 },
+		{ "time": 94.2, "type": "level_float_set",	 "value_name": "pulse_max",	"value": 90 },
+		{ "time": 94.2, "type": "level_float_set",	 "value_name": "pulse_min",	"value": 50 },
+		{ "time": 94.2, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": -10 },
+		{ "time": 94.2, "type": "level_float_set",	 "value_name": "beatpulse_delay_max",	"value": 0.00000000001 },
+		
+		{ "time": 116.5, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 1.12 },
+		{ "time": 116.5, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": 5 },
+		{ "time": 116.5, "type": "level_float_set",	 "value_name": "beatpulse_delay_max",	"value": 20 },
+		
+		{ "time": 138.5, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 0.000001 },
+		{ "time": 138.5, "type": "level_float_set",	 "value_name": "pulse_speed",	"value": 1 },
+		{ "time": 138.5, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": -10 },
+		{ "time": 138.5, "type": "level_float_set",	 "value_name": "beatpulse_delay_max",	"value": 0.00000000001 },
+		{ "time": 138.5, "type": "style_float_set",	 "value_name": "3D_skew",	"value": 0 },
+		{ "time": 138.5, "type": "level_float_set",	 "value_name": "speed_multiplier",	"value": 3.5 },
+		
+		{ "time": 160.5, 	"type": "message_important_add", 		"duration": 300, 	"message": "Congratulations! You beat Hexagonest!" },
+		{ "time": 160.5, 	"type": "timeline_wait", "duration": 500}, 
+		{ "time": 161.5, 	"type": "music_set",	"id": "silence" }, 
+		{ "time": 164,		"type": "menu" }	
+	]
+}
