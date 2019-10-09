@@ -23,7 +23,6 @@
 		{ "time": 66.7, "type": "level_float_set",	 "value_name": "pulse_min",	"value": 50 },
 		{ "time": 66.7, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": 40 },
 		{ "time": 66.7, "type": "level_float_set",	 "value_name": "beatpulse_delay_max",	"value": 20 },
-		{ "time": 66.7, "type": "level_float_set",	 "value_name": "speed_multiplier",	"value": 3.2 },
 		
 		{ "time": 94.2, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 0.9 },
 		{ "time": 94.2, "type": "level_float_set",	 "value_name": "pulse_speed",	"value": 2 },
@@ -41,7 +40,6 @@
 		{ "time": 138.5, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": -10 },
 		{ "time": 138.5, "type": "level_float_set",	 "value_name": "beatpulse_delay_max",	"value": 0.00000000001 },
 		{ "time": 138.5, "type": "style_float_set",	 "value_name": "3D_skew",	"value": 0 },
-		{ "time": 138.5, "type": "level_float_set",	 "value_name": "speed_multiplier",	"value": 3.5 },
 		
 		{ "time": 160.5, 	"type": "message_important_add", 		"duration": 300, 	"message": "Congratulations! You beat Hexagonest!" },
 		{ "time": 160.5, 	"type": "timeline_wait", "duration": 500}, 
