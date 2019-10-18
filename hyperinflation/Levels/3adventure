@@ -1,0 +1,48 @@
+{
+	// Level information
+	"id": "adventure",
+	"name": "An Odyssey",
+	"description": "Experimental Level!",
+	"author": "SoldierX5",	
+	"menu_priority": 30,
+	"selectable": true,
+	
+	// Style
+	"style_id": "adventure",
+	
+	// Music
+	"music_id": "hexagonest",
+	
+	// Lua
+	"lua_file": "defaultLevels/adventure.lua",
+	
+	// Difficulty multipliers
+	"difficulty_multipliers": [ 1 ],
+	
+	// Basic values
+	"speed_multiplier": 2.4,
+	"speed_increment": 0.067,
+	"rotation_speed": 0.3,
+	"rotation_increment": 0.040,
+	"delay_multiplier": 1.10,
+	"delay_increment": 0.00,
+	"fast_spin": 71.00,
+	"sides": 6,
+	"sides_min": 6,
+	"sides_max": 6,
+	"increment_time": 100000000,
+	"rotation_speed_max": 0.6,
+	
+	"pulse_min": 50,
+	"pulse_max": 70,
+	"pulse_speed": 2,
+	"pulse_speed_r": 1.54,
+	"pulse_delay_max": 3,
+	"pulse_delay_max": 9.1,
+	
+	"beatpulse_max": 10,
+	"beatpulse_delay_max": 15,
+	
+	//Events
+	"events": []
+}
