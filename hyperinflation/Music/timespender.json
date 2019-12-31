@@ -1,0 +1,31 @@
+{
+	// Music data id
+
+	"id": "timespender",
+
+
+	// Music file
+
+	"file_name": "timespender.ogg",
+
+
+	// Music information
+
+	"name": "Time Spender",
+
+	"album": "Time Spender",
+
+	"author": "F.O.O.L",
+
+	
+// Segments
+
+	"segments":
+
+	[
+
+		{ "time": 0 }
+		
+	]
+
+}

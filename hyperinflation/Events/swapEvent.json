@@ -1,0 +1,11 @@
+{
+	"id": "swapEvent",
+	
+	// Events
+	"events":
+	[
+		{ "time": 0, 	"type": "timeline_wait", "duration": 1200}, 
+		{ "time": 18.4, "type": "level_float_set",	 "value_name": "pulse_max",	"value": 1 },
+		{ "time": 18.4, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 0.6 }
+	]
+}

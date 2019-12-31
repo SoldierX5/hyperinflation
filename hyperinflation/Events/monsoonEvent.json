@@ -1,0 +1,31 @@
+{
+	"id": "monsoonEvent",
+	
+	// Events
+	"events":
+	[
+		{ "time": 0, 	"type": "timeline_wait", "duration": 1000}, 
+		{ "time": 16.5, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 0.1 },
+		{ "time": 21, "type": "style_float_set",	 "value_name": "3D_depth",	"value": 16 },
+		{ "time": 21, "type": "style_float_set",	 "value_name": "3D_spacing",	"value": 4 },
+		{ "time": 32, "type": "style_float_set",	 "value_name": "3D_depth",	"value": 22 },
+		{ "time": 32, "type": "style_float_set",	 "value_name": "3D_spacing",	"value": 8 },
+		{ "time": 44, "type": "style_float_set",	 "value_name": "3D_depth",	"value": 28 },
+		{ "time": 44, "type": "style_float_set",	 "value_name": "3D_spacing",	"value": 12 },
+		{ "time": 54, "type": "style_float_set",	 "value_name": "3D_depth",	"value": 32 },
+		{ "time": 54, "type": "style_float_set",	 "value_name": "3D_spacing",	"value": 16 },
+		{ "time": 71.4, "type": "style_set",	 "id": "monsoon2" },
+		{ "time": 71.4, "type": "lua_set",	 "id": "monsoon2" },
+		{ "time": 71.4, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 1 },
+		{ "time": 71.4, "type": "level_float_set",	 "value_name": "dirChangeTime",	"value": 10 },
+		{ "time": 71.4, "type": "level_float_set",	 "value_name": "pulse_speed_r",	"value": 10 },
+		{ "time": 83.6, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 0.3 },
+		{ "time": 83.6, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": 55 },
+		{ "time": 83.6, "type": "level_float_set",	 "value_name": "beatpulse_delay_max",	"value": 15 },
+		{ "time": 85.7, "type": "level_float_set",	 "value_name": "beatpulse_max",	"value": 20 },
+		{ "time": 85.7, "type": "level_float_set",	 "value_name": "rotation_speed",	"value": 1.05 },
+		{ "time": 86, "type": "level_float_set",	 "value_name": "dirChangeTime",	"value": 1 },
+		
+		{ "time": 164,		"type": "menu" }	
+	]
+}

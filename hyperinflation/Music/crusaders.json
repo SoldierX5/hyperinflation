@@ -1,0 +1,18 @@
+{
+	// Music data id
+	"id": "crusaders",
+
+	// Music file
+	"file_name": "crusaders.ogg",
+
+	// Music information
+	"name": "Crusaders",
+	"album": "The Invasion",
+	"author": "Destroid",
+	
+	// Segments
+	"segments":
+	[
+		{ "time": 11 }
+	]
+}

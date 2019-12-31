@@ -11,7 +11,7 @@ function addPattern(mKey)
 	elseif mKey == 4 then pMirrorWallStrip(1, 0)
 	elseif mKey == 5 then pWallExVortex(0, 1, 1)
 	elseif mKey == 7 then pRandomBarrage(math.random(2, 3), 2.25)
-	elseif mKey == 8 then pMirrorSpiralDouble(math.random(4, 6), 0)
+	elseif mKey == 8 then pMirrorSpiralDouble(math.random(2, 5), 0)
 	elseif mKey == 9 then pMirrorSpiral(math.random(2, 4), 0)
 	end
 end
@@ -25,7 +25,7 @@ index = 0
 -- onLoad is an hardcoded function that is called when the level is started/restarted
 function onLoad()
 	log("level onLoad")
-	execEvent("adventureEvent")
+	execEvent("monsoonEvent")
 end
 
 -- onStep is an hardcoded function that is called when the level timeline is empty
@@ -48,16 +48,8 @@ function onUnload()
 end
 
 -- continuous direction change (even if not on level increment)
-dirChangeTime = 100
+dirChangeTime = 5
 
 -- onUpdate is an hardcoded function that is called every frame
 function onUpdate(mFrameTime)
-	dirChangeTime = dirChangeTime - mFrameTime;
-	if dirChangeTime < 0 then
-		-- do not change direction while fast spinning
-		if isFastSpinning() == false then
-			setLevelValueFloat("rotation_speed", getLevelValueFloat("rotation_speed") * -1)
-			dirChangeTime = 100
-		end
-	end 
 end
